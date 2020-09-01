@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#principal{
+    background: #D8D8D8; 
+    z-index: 100;   
+}
+
+#cabecalho{                /*cabecalho*/
+    text-align: center;
+    padding: 5px;
+    background: #74716d;
+    margin-top: -24px;
+    position: relative;
+    border-bottom: 1px solid black;
+}
+
+#principal, #cabecalho, a { 
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#imagem-codigo{
+    position: absolute;
+    left: 30px;
+    bottom: 25px;
+    height: 315px;
+}                      
+#form{
+    width: 250px;
+    height: 150px;
+    background-color: rgba(255, 255, 255,0.3);
+    border-radius: 10px;
+    position: absolute;
+    top: 28px;
+    right: 30px;
+}
+
+.login{
+    margin-top: 20px;
+}
+
+input{
+    height: 30px;
+    width: 80%;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding-left: 40px;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+input.email{
+    background-image: url(../imagens/icone-usuario.png);
+}
+
+input.senha{
+    background-image: url(../imagens/icone-cadeado.png);
+}
+
+input.submit{
+    color: #fff;
+    background-color: #0777e7;
+    border: 2px solid #1080b4;
+    padding: 0px 10px;
+    height: 30px;
+    line-height: 15px;
+    width: 90%;    
+    background: linear-gradient(to bottom, #0777e7, #1080b4);
+}
+
+input.submit:hover{
+    color: rgb(5, 5, 5);
+    background: #2E2EFE;
+}
+
+                                /*fim cabecalho*/
+
+#menu{                            /*navbar*/
+    width: 100%;
+    height: 42px;
+    position: relative;
+    margin-top: 5px;
+    z-index: 999; 
+    background: #0777e7;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#menu #navbar{
+    width: 700px;
+    margin-left: 160px;
+
+}
+
+#menu ul{    
+    list-style: none;
+    background: #0777e7;
+    color: white;  
+    box-shadow: 2px, 3px, 2px, 3px;
+    position: absolute;
+    margin-left: 20px;
+}
+
+#menu ul li{
+    float: left;
+    padding: 4px 1.3em;
+    line-height: 2em; 
+    text-align: center;
+}
+
+#menu a{
+    color: white;
+    height: 40px;
+    margin: 0 auto;
+    padding: 0 2em;
+    line-height: 2em;
+    background: url(../imagens/divisor.png) no-repeat left;    
+}
+
+#menu ul .primeiro a{
+    background: none;
+}
+
+#menu ul ul{
+    position: absolute;
+    visibility: hidden;    
+}
+
+#menu ul li:hover ul{
+    visibility: visible;
+    
+}
+
+#menu a:hover{
+    color: rgb(5, 5, 5);
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#menu ul ul li{
+    float: none;
+    border-bottom: 1px solid #ccc;
+}
+
+
+#home #menu .inicio a,
+#contato #menu .contato a,
+#sobre #menu .sobre a,
+#link5 #menu .link5 a,
+#link6 #menu .link6 a,
+#link7 #menu .link7 a,
+#link8 #menu .link8 a{
+    background-position: left bottom;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+    
+}                                 /*fim navbar*/
+
+/*--------------------------------Barra de pesquisa-----------------------*/
+
+#divBusca{
+    background-color:#E0EEEE;
+    border:solid 2px #5F9EA0;
+    border-radius:10px;
+    width: 290px;
+    height:36px;
+    float: right;
+    margin-top: 2px;
+    margin-right: 10px;
+}
+
+#divBusca input{
+    border: transparent;    
+}
+  
+#txtBusca{
+    float:left;
+    
+    padding-left:5px;
+    font-size:18px;
+    height:32px;
+    width:191px;    
+}
+  
+#btnBusca{
+    border:none;
+    float:left;
+    height:32px;
+    border-radius:0 7px 7px 0;
+    width:70px;
+    font-weight:bold;
+    background:#1080b4;
+    color: #fff;
+}
+
+#btnBusca:hover{
+    background: #2E2EFE;
+    color: black;
+}
+  
+#divBusca img{
+    float:left;
+    margin-top: 2px;
+}                     /*--------------------------------Fim barra de pesquisa-----------------------*/
+
+#conteudos{                                    /*conteudo lateral*/
+    margin-top: 6px;
+    margin-bottom: 6px;
+    box-shadow: 1px, 2px, 3px, 4px;
+    z-index: 100;
+}
+.conteudo-lateral {
+    width: 220px;
+    height: 750px;
+    float: right;
+    margin-left: 20px;
+    margin-right: 14px;
+    background: white;  
+    padding: 10px;
+    box-shadow: 0.5px 1px 1.5px 2px;
+    position: relative;
+}
+
+.conteudo-lateral ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.conteudo-lateral ul a{
+    width: 200px;
+    height: 40px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-indent: 30px;
+    line-height: 40px;
+    background: #1080b4 url(../imagens/menu.png) no-repeat right bottom;
+}
+
+.conteudo-lateral p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-indent: 15px;
+}
+
+#redes-sociais{
+    position: absolute;
+    right: 60px;
+    bottom: 10px;
+    background: #fff;
+}
+
+.conteudo-lateral #menu-lateral a:hover{
+    background-position: left bottom;
+    background-color: #2E2EFE;
+    color: rgb(17, 16, 16);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#home #menu-lateral .link1 a,
+#link2 #menu-lateral .link2 a, 
+#link3 #menu-lateral .link3 a,
+#link4 #menu-lateral .link4 a,
+#link5 #menu-lateral .link5 a,
+#link6 #menu-lateral .link6 a{
+    background-position: left bottom;
+    background-color: #2E2EFE;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /*fim conteudo lateral*/
+}
+
+.conteudo-central {            /*conteudo central*/
+    width: 1080px;
+    height: 750px;
+    float: right;
+    background: white; 
+    margin-left: 10px; 
+    box-shadow: 0.5px 1px 1.5px 2px; 
+    position: relative;   
+}
+
+.conteudo-central .texto-central{
+    width: 385px;
+    height: 400px;
+    float: right;
+    padding-right: 50px;
+    margin: -5px;
+    position: absolute;
+    top: 5px;
+    right: 40px;
+    padding: 5px;
+    text-indent: 15px;
+}
+
+.conteudo-central img{
+    border: 10px solid #c5c5b2
+}
+
+.conteudo-central .texto-central p{
+    text-justify: distribute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    word-wrap: break-word;
+}
+
+.conteudo-central .texto-central h5{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  /*fim conteudo central*/
+    padding-left: 15px;
+}
+
+.hr{
+    border: none;
+    height: 1px;
+    background: black;
+}
+
+
+#rodape{
+    text-align: center;
+    background: #74716d;
+    padding: 5px;
+    border-top: 1px solid black;
+}
+
+.clear{
+    clear: both;
+}

@@ -1,0 +1,34 @@
+fieldset{
+    padding: 1em;
+    border: 1px solid #ccc;
+    background: #f8f8f8;
+    width: 600px;
+    margin: 0 auto;
+}
+
+#dadospessoais{
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#dadospessoais .primeiro,
+#dadospessoais .segundo{
+    margin-bottom: 7px;
+}
+
+#dadospessoais .dados{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.primeiro legend{
+    width: 305px;
+}
+
+.segundo legend{
+    width: 105px;
+}
+
+
+
+
+
