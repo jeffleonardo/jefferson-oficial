@@ -169,24 +169,19 @@ input.submit:hover{
     background-color:#E0EEEE;
     border:solid 2px #5F9EA0;
     border-radius:10px;
-    width: 290px;
+    width: 20%;
     height:36px;
     float: right;
     margin-top: 2px;
     margin-right: 10px;
 }
-
-#divBusca input{
-    border: transparent;    
-}
   
 #txtBusca{
-    float:left;
-    
+    float:left;    
     padding-left:5px;
     font-size:18px;
     height:32px;
-    width:191px;    
+    width: 64.1%;    
 }
   
 #btnBusca{
@@ -221,7 +216,7 @@ input.submit:hover{
     height: 750px;
     float: right;
     margin-left: 20px;
-    margin-right: 14px;
+    margin-right: 17px;
     background: white;  
     padding: 10px;
     box-shadow: 0.5px 1px 1.5px 2px;
@@ -277,7 +272,7 @@ input.submit:hover{
 }
 
 .conteudo-central {            /*conteudo central*/
-    width: 1080px;
+    width: 80%;
     height: 750px;
     float: right;
     background: white; 

@@ -1,0 +1,13 @@
+fieldset{
+    padding: 1em;
+    border: 1px solid #ccc;
+    background: #f8f8f8;
+    width: 95%;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#sobre-mim ul{
+    margin-left: 20px;
+}
+
