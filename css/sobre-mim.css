@@ -11,3 +11,19 @@ fieldset{
     margin-left: 20px;
 }
 
+#unico legend{
+    width: 18%;
+}
+
+#unico a{
+    font-size: 1.3em;
+}
+
+#unico a:hover{
+    text-decoration: none;
+}
+
+#unico p{
+    margin-bottom: -10px;
+}
+
