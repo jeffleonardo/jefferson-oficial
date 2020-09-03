@@ -5,14 +5,16 @@
 
 #principal{
     background: #D8D8D8; 
-    z-index: 100;   
+    z-index: 100;  
+    width: 100%;
 }
 
 #cabecalho{                /*cabecalho*/
+    width: 100%;
     text-align: center;
-    padding: 5px;
+    padding: 1%;
     background: #74716d;
-    margin-top: -24px;
+    margin-top: -2.5%;
     position: relative;
     border-bottom: 1px solid black;
 }
@@ -24,7 +26,7 @@
 
 #imagem-codigo{
     position: absolute;
-    left: 30px;
+    left: 5%;
     bottom: 25px;
     height: 315px;
 }                      
@@ -34,7 +36,7 @@
     background-color: rgba(255, 255, 255,0.3);
     border-radius: 10px;
     position: absolute;
-    top: 28px;
+    top: 40px;
     right: 30px;
 }
 
