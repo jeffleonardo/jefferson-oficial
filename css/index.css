@@ -295,7 +295,7 @@ input.submit:hover{
 }
 
 .conteudo-central img{
-    border: 10px solid #c5c5b2
+    border: 5px solid #c5c5b2
 }
 
 .conteudo-central .texto-central p{
@@ -308,7 +308,38 @@ input.submit:hover{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  /*fim conteudo central*/
     padding-left: 15px;
 }
+/*formatando animação*/
 
+section { 
+    margin-top: 20px;
+	height: 30%; 
+	width: 100%; 
+	background: #1d3be9; 
+	overflow: hidden; 
+    position: absolute;
+} 
+
+.sliding { 
+	position: absolute; 
+	top: 50%; 
+	white-space: nowrap; 
+	font-size: 9em; 
+	line-height: 280px; 
+	overflow: hidden; 
+	font-family: Teko; 
+	animation: animate 8s linear infinite;
+} 
+
+@keyframes animate { 
+	0% { 
+  	transform: translate(0, -50%); 
+}  100% 
+       { 
+    transform: translate(-50%, -50%); 
+}
+}
+
+/*fim da animação*/
 .hr{
     border: none;
     height: 1px;
