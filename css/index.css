@@ -121,7 +121,7 @@ input.submit:hover{
     margin: 0 auto;
     padding: 0 2em;
     line-height: 2em;
-    background: url(../imagens/divisor.png) no-repeat left;    
+    background: url(../imagens/divisor.png) no-repeat left;  
 }
 
 #menu ul .primeiro a{
@@ -142,6 +142,7 @@ input.submit:hover{
     color: rgb(5, 5, 5);
     text-decoration: none;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #2E2EFE;
 }
 
 #menu ul ul li{
@@ -282,20 +283,22 @@ input.submit:hover{
 }
 
 .conteudo-central .texto-central{
-    width: 385px;
+    width: 400px;
     height: 400px;
     float: right;
     padding-right: 50px;
     margin: -5px;
     position: absolute;
     top: 5px;
-    right: 40px;
+    right: 20px;
     padding: 5px;
     text-indent: 15px;
 }
 
 .conteudo-central img{
-    border: 5px solid #c5c5b2
+    border: 5px solid #ccc;
+    margin: 5px;
+
 }
 
 .conteudo-central .texto-central p{
@@ -311,10 +314,10 @@ input.submit:hover{
 /*formatando animação*/
 
 section { 
-    margin-top: 20px;
+    margin-top: 8vh;
 	height: 30%; 
 	width: 100%; 
-	background: #1d3be9; 
+	background: #1080b4; 
 	overflow: hidden; 
     position: absolute;
 } 
