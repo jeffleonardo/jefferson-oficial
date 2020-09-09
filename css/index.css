@@ -58,29 +58,33 @@ input{
 
 input.email{
     background-image: url(../imagens/icone-usuario.png);
+    font-family: Arial, Helvetica, sans-serif;
+    outline: 0;
 }
 
 input.senha{
     background-image: url(../imagens/icone-cadeado.png);
+    font-family: Arial, Helvetica, sans-serif;
+    outline: 0;
 }
 
 input.submit{
     color: #fff;
-    background-color: #0777e7;
+    background-color: #2E2EFE;
     border: 2px solid #1080b4;
     padding: 0px 10px;
     height: 30px;
     line-height: 15px;
     width: 90%;    
     background: linear-gradient(to bottom, #0777e7, #1080b4);
+    border-radius: 5px;
 }
 
 input.submit:hover{
     color: rgb(5, 5, 5);
     background: #2E2EFE;
 }
-
-                                /*fim cabecalho*/
+                             /*fim cabecalho*/
 
 #menu{                            /*navbar*/
     width: 100%;
@@ -95,7 +99,7 @@ input.submit:hover{
 
 #menu #navbar{
     width: 700px;
-    margin-left: 160px;
+    margin: 0 auto;
 
 }
 
@@ -105,23 +109,24 @@ input.submit:hover{
     color: white;  
     box-shadow: 2px, 3px, 2px, 3px;
     position: absolute;
-    margin-left: 20px;
 }
 
 #menu ul li{
     float: left;
-    padding: 4px 1.3em;
+    padding: 4px 0;
     line-height: 2em; 
-    text-align: center;
+}
+
+#menu li:hover {
+    background-color: #2E2EFE;
 }
 
 #menu a{
     color: white;
     height: 40px;
-    margin: 0 auto;
-    padding: 0 2em;
+    padding: 10px 2.5em;
     line-height: 2em;
-    background: url(../imagens/divisor.png) no-repeat left;  
+    background: url(../imagens/divisor.png) no-repeat left;   
 }
 
 #menu ul .primeiro a{
@@ -142,7 +147,6 @@ input.submit:hover{
     color: rgb(5, 5, 5);
     text-decoration: none;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: #2E2EFE;
 }
 
 #menu ul ul li{
@@ -153,15 +157,11 @@ input.submit:hover{
 
 #home #menu .inicio a,
 #contato #menu .contato a,
-#sobre #menu .sobre a,
-#link5 #menu .link5 a,
-#link6 #menu .link6 a,
-#link7 #menu .link7 a,
-#link8 #menu .link8 a{
+#sobre #menu .sobre a{
     background-position: left bottom;
     color: black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
-    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #2E2EFE;     
 }                                 /*fim navbar*/
 
 /*--------------------------------Barra de pesquisa-----------------------*/
@@ -182,7 +182,8 @@ input.submit:hover{
     padding-left:5px;
     font-size:18px;
     height:32px;
-    width: 64.1%;    
+    width: 64.1%;
+    outline: 0;    
 }
   
 #btnBusca{
@@ -204,7 +205,7 @@ input.submit:hover{
 #divBusca img{
     float:left;
     margin-top: 2px;
-}                     /*--------------------------------Fim barra de pesquisa-----------------------*/
+}/*--------------------------------Fim barra de pesquisa-----------------------*/
 
 #conteudos{                                    /*conteudo lateral*/
     margin-top: 6px;
