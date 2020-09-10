@@ -2,7 +2,7 @@ fieldset{
     padding: 1em;
     border: 1px solid #ccc;
     background: #f8f8f8;
-    width: 600px;
+    width: 75%;
     margin: 20px auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -25,6 +25,43 @@ fieldset{
     width: 105px;
 }
 
+@media only screen and (max-width: 959px) {
+    * {
+        font-size: 12px;
+    }
+    span{
+        font-size: 9em;
+    }
+    section{
+        height: 30%;
+    }
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    * {
+        font-size: 12px;
+    }
+}
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+    * {
+        font-size: 14px;
+    }
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    * {
+        font-size: 9px;
+    }
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+    * {
+        font-size: 7px;}
+    }
 
 
 

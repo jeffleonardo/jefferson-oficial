@@ -1,5 +1,5 @@
 fieldset{
-    padding: 1em;
+    padding: 1.5em;
     border: 1px solid #ccc;
     background: #f8f8f8;
     width: 95%;
@@ -15,10 +15,6 @@ fieldset{
     width: 18%;
 }
 
-#unico a{
-    font-size: 1.3em;
-}
-
 #unico a:hover{
     text-decoration: none;
 }
@@ -27,3 +23,53 @@ fieldset{
     margin-bottom: -10px;
 }
 
+@media only screen and (min-width: 951px) and (max-width: 1366px) {
+    * {
+        font-size: 1em;
+}
+    fieldset {
+        font-size: 1em;
+}
+    legend {
+        font-size: 1.2em; 
+}
+}
+
+
+@media only screen and (min-width: 800px) and (max-width: 950) {
+    * {
+        font-size: 14px;
+}
+    fieldset {
+        font-size: 1.2em;
+}
+    legend {
+        font-size: 1.2em; 
+        
+}
+}
+
+@media only screen and (min-width: 650px) and (max-width: 799px) {
+    * {
+        font-size: 12px;
+    }
+    fieldset {
+        font-size: 1em;
+    }
+    legend {
+        font-size: 1.5em;
+        
+    }
+}
+
+@media only screen and (min-width: 479px) and (max-width: 649){
+    * {
+        font-size: 0.7em;
+}
+    fieldset {
+        font-size: 0.7em;
+}
+    legend {
+        font-size: 1em; 
+}
+}
