@@ -3,19 +3,12 @@
     padding: 0;
 }
 
-html{
-    height: 100vh;
-}
-
-body{
-    height: 100vh;
-}
-
 #principal{
     background: #D8D8D8; 
     z-index: 100;  
     width: 100%;
     height: 100vh;
+    min-width: 700px;
 }
 
 #cabecalho{                /*cabecalho*/
@@ -324,6 +317,7 @@ input.submit:hover{
     text-justify: distribute;
     font-family: Georgia, 'Times New Roman', Times, serif;
     word-wrap: break-word;
+    text-indent: 20px;
 }
 
 .conteudo-central .texto-central h5{
